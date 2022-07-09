@@ -1,0 +1,147 @@
+
+html {
+    background-image:  url("vote7.jpg"); 
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    opacity: 2;
+    color: rgb(175, 1, 1);
+}
+
+#navbar {
+
+    margin: 25px 4px;
+    padding: 4px 4px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Roboto Condensed', 'serif';
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: rgb(3, 180, 3);
+    display: block;
+    padding: 4px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+#navbar ul li a:hover {
+    color: indigo;
+    background-color: lightpink;
+}
+
+#evoting {
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: rgb(10, 13, 43);
+}
+
+#admin {
+    display: block;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 78%;
+    border-radius: 30px;
+    background-color: rgb(10, 13, 43);
+}
+
+.logout {
+    display: block;
+    margin-left: 50rem;
+    font-weight: bolder;
+    position: absolute;
+    /* float: right; */
+    margin-left: 78%;
+    /* border: 2px solid blue; */
+    border-radius: 30px;
+    background-color: rgb(10, 13, 43);
+}
+
+#log {
+    border-radius: 10px;
+    /* height: 10px;
+    width: 100%; */
+    color: rgb(3, 180, 3);
+    display: block;
+    padding: 4px 4px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.container {
+    margin: 50x;
+    padding: 50px;
+    margin: 50x;
+    padding: 50px;
+    margin: 50x;
+    padding: 50px;
+    margin-left: 60px;
+    padding-left: 60px;
+    text-align: justify;
+    align-items: center;
+}
+
+form {
+    text-align: justify;
+    align-items: center;
+}
+
+form img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 70%;
+}
+
+::placeholder {
+    width: 600px;
+}
+
+.inp input {
+    width: 300px;
+    text-align: justify;
+    align-items: justify;
+    border-radius: 3px;
+    margin: 4px;
+    padding: 3px;
+    display: flex;
+}
+
+#password {
+    margin-top: 30px;
+}
+
+.btn_bar {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn input {
+    color: rgb(99, 10, 126);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn input:hover {
+    color: indigo;
+    background-color: lightpink;
+}

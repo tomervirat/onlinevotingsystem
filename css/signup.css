@@ -1,0 +1,139 @@
+body {
+    background-image: url("vote8.jpg");
+    background-size: cover;
+}
+
+h2 {
+    /* border: 1px dashed palevioletred; */
+    border-radius: 50px;
+    margin: 2rem;
+    width: 95%;
+    padding: 5px 10px;
+    text-shadow: 2px 2px 5px rgb(212, 233, 118);
+    text-align: center;
+    color: crimson;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* transition: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+}
+
+@keyframes example {
+    0% {
+        background-color: rgb(212, 92, 92);
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 400px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 400px;
+        top: 0px;
+    }
+
+    75% {
+        background-color: rgb(97, 245, 97);
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: rgb(79, 214, 214);
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.container {
+    /* border: 2px solid gold; */
+    margin: 50x;
+    padding: 70px;
+    margin: 70x;
+    /* padding: 50px;
+            margin: 50x; */
+    padding: 50px;
+    margin-left: 60px;
+    padding-left: 60px;
+    text-align: justify;
+    align-items: center;
+}
+
+.inp {
+    padding: 3px;
+    margin: 5px;
+}
+
+form {
+    text-align: justify;
+    align-items: center;
+}
+
+::placeholder {
+    width: 300px;
+}
+
+.img {
+    display: inline-block;
+    margin: auto;
+    padding: 2px;
+}
+
+.inp input {
+    width: 200px;
+    text-align: justify;
+    align-items: justify;
+    border-radius: 3px;
+    margin: 4px;
+    padding: 3px;
+    display: flex;
+}
+
+#password {
+    margin-top: 30px;
+}
+
+.btn_bar {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn input {
+    color: rgb(99, 10, 126);
+    /* display: block; */
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 120px;
+    align-items: center;
+}
+
+.btn input:hover {
+    color: indigo;
+    background-color: lightpink;
+}
+
+#showpass {
+    display: inline-block;
+}
+
+#genderm {
+    display: inline-block;
+}
+
+#genderf {
+    display: inline-block;
+}

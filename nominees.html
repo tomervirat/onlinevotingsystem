@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        h1 {
+            text-align: center;
+            color: indigo;
+            font-weight: bold;
+        }
+
+        h3 {
+            text-align: center;
+            color: darkred;
+            font-weight: bold;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 0 16px;
+            height: 90vh;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>List of Nominees for the Upcoming Election</h1>
+    <h3>Before deciding your leader, first know them.</h3>
+    <br>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./images/nominee1.jpg" alt="Narendra Modi" style="width:100%; height: 70vh">
+                <div class="container">
+                    <h2>Narendra Modi</h2>
+                    <p class="title">PM of India</p>
+                    <p>Narendra Damodardas Modi was born on 17 September
+                        1950 is an Indian politician serving as the 14th and current prime minister of India since
+                        2014. Modi was the chief minister of Gujarat from 2001 to 2014 and is the Member of Parliament
+                        from Varanasi. He is a member of the Bharatiya Janata Party (BJP) and of the Rashtriya
+                        Swayamsevak Sangh (RSS), a right-wing Hindu nationalist paramilitary volunteer organisation. He
+                        is the first prime minister to have been born after India's independence in 1947 and the second
+                        prime minister not belonging to the Indian National Congress to have won two consecutive
+                        majorities in the Lok Sabha, or the lower house of India's parliament. He is also the longest
+                        serving prime minister from a non-Congress party.
+                        <br> Modi completed his higher secondary education in Vadnagar in 1967, where teachers described him
+                        as an average student and a keen gifted debater, with interest in theatre. Modi preferred
+                        playing larger-than-life characters in theatrical productions, which has influenced his
+                        political image. Modi spent the ensuing two years travelling across Northern and North-eastern
+                        India, though few details of where he went have emerged.</p>
+                    <p><button class="button">Read more</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./images/nominee2.jpg" alt="Rahul Gandhi" style="width:100%; height: 70vh">
+                <div class="container">
+                    <h2>Rahul Gandhi</h2>
+                    <p class="title">Member of the Indian Parliament</p>
+                    <p>Rahul Gandhi was born on 19 June 1970 is an Indian politician and a member of the Indian
+                        Parliament, representing the constituency of Wayanad, Kerala in the 17th Lok Sabha. A member of
+                        the Indian National Congress,
+                        he served as the president of the Indian National Congress from 16 December 2017 to 3 July 2019.
+                        Gandhi is the chairperson of the Indian Youth Congress, the National Students Union of India
+                        also a trustee of Rajiv Gandhi Foundation and the Rajiv Gandhi Charitable Trust.
+                        <br> Gandhi joined St. Stephen's College, Delhi in
+                        1989 for his undergraduate education but moved to Harvard University after he completed the
+                        first year examinations. After the death of his father, he shifted to Rollins College in
+                        Florida, USA, due to security concerns and obtained his B.A. in 1994. During his time at
+                        Rollins, he assumed the pseudonym Raul Vinci and his identity was known only to the university
+                        officials and security agencies. He further went on to obtain an M.Phil. from Trinity
+                        College, Cambridge in 1995.</p>
+                    <p><button class="button">Read more</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./images/nominee3.jpg" alt="Arvind Kejariwal" style="width:100%; height: 70vh">
+                <div class="container">
+                    <h2>Arvind Kejariwal</h2>
+                    <p class="title">CM of Delhi</p>
+                    <p>Arvind Kejriwal was born on 16 August 1968 is an Indian politician,
+                        former bureaucrat and activist who is the current and 7th Chief Minister of Delhi since February
+                        2015. In 2006, Kejriwal was awarded the Ramon Magsaysay Award for Emergent Leadership in
+                        recognition of his involvement in the grassroots level movement Parivartan using right to
+                        information legislation in a campaign against government corruption. The same year, after
+                        resigning from Government service, he donated his Magsaysay award money as a corpus fund to
+                        found the Public Cause Research Foundation, a non-governmental organization (NGO).
+                        <br> Before joining politics, Kejriwal had worked in the Indian Revenue Service as a Joint
+                        Commissioner of Income Tax in New Delhi. Kejriwal is a graduate in mechanical engineering from
+                        Indian Institute of Technology (IIT) Kharagpur. In 2012, he launched the Aam Aadmi Party, which
+                        won in the 2013 Delhi Legislative Assembly election.</p>
+                    <p><button class="button" onclick="myFunction()">Read more</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./images/nominee4.jpg" alt="M.K. Stalin" style="width:100%; height: 70vh">
+                <div class="container">
+                    <h2>M.K. Stalin</h2>
+                    <p class="title">CM of Tamil Nadu</p>
+                    <p class="txt" onload="hide()">Stalin is the third son of 2nd Chief Minister of Tamil Nadu and DMK Chief M. Karunanidhi.He
+                        completed a pre-university course at Vivekananda College, and obtained a history degree from
+                        Presidency College. M. K. Stalin was conferred Honorary Doctorates by Anna University
+                        <br> His political career began in his early teens when he started the DMK Gopalapuram Youth Wing in a
+                        tea shop with several friends. As a 14 year old, he campaigned for his uncle, Murasoli
+                        Maran, in the 1967 elections. In 1973, Stalin was elected to the General committee of
+                        the DMK.</p>
+                    <p><button class="button">Read more</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+          var txt = document.getElementsByClassName("button");
+          var len = txt.textContect.length();
+          console.log(len);
+        }
+        
+        function hide(){
+            var txt = document.getElementsByClassName("txt");
+            var len = txt.length;
+            console.log(len);
+        }
+        </script>
+
+
+</body>
+
+</html>
